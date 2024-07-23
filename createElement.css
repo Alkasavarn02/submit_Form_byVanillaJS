@@ -4,46 +4,62 @@
     box-sizing: border-box;
 }
 
-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+body {
     background-color: #00004d;
-    gap: 50px;
-}
-
-.container {
-    margin-top: 100px;
-    padding: 20px;
-    border: 5px solid black;
-    border-radius: 10px;
-    background-color: aliceblue;
     color: black;
-    font-size: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 40%;
 }
 
-input {
-    border: 2px solid black;
-    height: 2rem;
-    width: 20rem;
-    padding-left: 10px;
-    border-radius: 10px;
+.dflex{
+    display: flex;
 }
-#btn {
-    position: relative;
-    width: 100px;
-    font-size: 1rem;
-    left : 450px;
-    top : 10px
+
+form {
+    max-width: 900px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 40px;
+    font-size: 30px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: white
+}
+
+input{
+    display: block;
+    width: 400px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid black
+
+}
+
+form div {
+    margin-bottom: 20px;
+}
+form div:last-child {
+    margin-bottom: 0;
+    justify-content: flex-end;
+}
+label {
+    display: block;
+    width: 35%;
 }
 
 ul {
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
     color: white;
     font-size: 40px;
 }
-
