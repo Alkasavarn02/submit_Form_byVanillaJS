@@ -49,7 +49,7 @@ btn.addEventListener("click", () => {
     }
 
     if (allFilled) {
-        document.querySelector("ul").innerHTML="";
+        document.querySelector("ul").textContent="";
         for (let i = 0; i < input.length; i++) {
             let li = document.createElement("li");
             li.appendChild(document.createTextNode(`Your ${label[i].innerHTML} is ${input[i].value}`));
