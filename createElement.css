@@ -42,6 +42,9 @@ input{
     border: 2px solid black
 
 }
+.btn:active{
+    box-shadow: 2px 2px 5px #414141
+}
 
 form div {
     margin-bottom: 20px;
